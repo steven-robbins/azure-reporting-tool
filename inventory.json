@@ -1,0 +1,18 @@
+{
+    "b9e10748-d338-4642-a355-853fb8a0da52": {
+        "reporting": {
+            "Microsoft.DBforMySQL/servers": [
+                "sstero-mysql-single"
+            ],
+            "Microsoft.DBforMySQL/flexibleServers": [
+                "sstero-mysql-flexi"
+            ],
+            "Microsoft.Sql/servers": [
+                "sstero-sql/databases/sstero-sql-db1"
+            ],
+            "Microsoft.Storage/storageAccounts": [
+                "ssterostorage"
+            ]
+        }
+    }
+}

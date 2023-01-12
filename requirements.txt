@@ -1,0 +1,7 @@
+azure.identity
+azure.monitor.query
+azure.mgmt.rdbms
+azure.mgmt.sql
+azure.mgmt.storage
+pandas
+openpyxl
