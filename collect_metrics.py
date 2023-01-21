@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('-d', '--definitions-only', action='store_true', help='Print metric definitons only')
     parser.add_argument('-s', '--start-time', help='The start time to query from. Example: 2023-01-01T00:00:00+08:00')
     parser.add_argument('-e', '--end-time', help='The end time to query to. Defaults to now. Example: 2023-02-01T00:00:00+08:00')
-    parser.add_argument('-l', '--last-n-days', help=f'The number of days to start query from until now. Default: {default_n_days}')
+    parser.add_argument('-l', '--last-n-days', type=int, help=f'The number of days to start query from until now. Default: {default_n_days}')
     return parser.parse_args()
 
 
